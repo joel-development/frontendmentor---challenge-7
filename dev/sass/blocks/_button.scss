@@ -12,6 +12,12 @@
   font-weight: 600;
   line-height: 16px;
 
+  &:hover
+  {
+    cursor: pointer;
+    background-color: $hover;
+    transition: background-color .2s;
+  }
   &--circle
   {
     padding: 12px 50px;
