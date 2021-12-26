@@ -26,10 +26,14 @@
     
     padding: 10px;
     border-radius: 20px;
-    border: solid 2px $secondary-color;
+    border: solid 2px currentColor;
     
     color: $secondary-color;
     text-decoration: none;
+    &:hover
+    {
+      color: $hover;
+    }
   }
 
 }
