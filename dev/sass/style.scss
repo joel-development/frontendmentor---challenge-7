@@ -1,4 +1,6 @@
-@import 'variables/_variables.scss';
-@import 'base/_normalize';
+@import 'variables/variables.scss';
+@import 'base/normalize';
 @import 'base/base';
+@import 'blocks/button';
 @import 'blocks/header';
+@import 'blocks/main';

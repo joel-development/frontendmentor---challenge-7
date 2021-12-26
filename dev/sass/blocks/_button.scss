@@ -1,0 +1,26 @@
+.button
+{
+  display: block;
+  height: 40px;
+  width: max-content;
+  
+  color: white;
+  background-color: $secondary-color;
+  
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+
+  &--circle
+  {
+    padding: 12px 50px;
+    border-radius: 25px;
+  }
+  
+  &--square
+  {
+    padding: 12px 30px;
+    border-radius: 5px;
+  }
+}

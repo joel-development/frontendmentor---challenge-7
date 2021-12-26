@@ -7,4 +7,23 @@ body
 {
   font-family: $body-font;
   font-size: 16px;
+  font-weight: 400;
+
+  background-color: white;
+  color: $main-color;
+}
+
+p
+{
+  margin: 0;
+}
+
+img
+{
+  max-width: 100%;
+}
+
+.title
+{
+  font-family: $title-font;
 }
