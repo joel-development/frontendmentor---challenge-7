@@ -16,7 +16,10 @@
 }
 .landing__text
 {
-  margin: 40px 0;
+  margin: 40px auto;
+  max-width: 100%;
+  width: 500px;
+  line-height: 24px;
 }
 
 .landing .button
@@ -25,14 +28,15 @@
 }
 .landing__img
 {
-  margin: 100px auto;
+  margin: 50px auto;
+  width: 500px;
 }
 
 .stats-container
 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   padding: 50px 0;
   gap: 50px;
   
@@ -44,6 +48,7 @@
   position: relative;
   width: max-content;
   padding-top: 35px;
+  width: 200px;
 
   &__icon
   {
@@ -109,20 +114,24 @@
   font-weight: 700;
 }
 
+.expo__text
+{
+  text-align: center;
+  line-height: 24px;
+}
 .expo__text,
 .expo__illustration
 {
   padding: 20px;
   max-width: 100%;
-  width: 300px;
-
-  text-align: center;
+  width: 400px;
 }
 
 .get-start
 {
   margin: 50px 0;
-  min-height: 50vh;
+  min-height: 30vh;
+  height: max-content;
 }
 
 .get-start__title
@@ -134,4 +143,19 @@
 .get-start .button
 {
   margin: 40px auto;
+}
+
+@media screen and (min-width: 860px)
+{
+  .expo__text
+  {
+    text-align: left;
+  }
+  .expo--even
+  {
+    .expo__illustration
+    {
+      order: 2;
+    }
+  }
 }
